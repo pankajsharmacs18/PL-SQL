@@ -1,0 +1,9 @@
+declare 
+num int := 1;
+begin
+while num <=10
+loop
+Dbms_output.put_line(num);
+num:=num+1;
+end loop;
+end;
