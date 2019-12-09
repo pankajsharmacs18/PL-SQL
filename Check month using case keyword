@@ -1,0 +1,42 @@
+Declare 
+month varchar(6) :='May';
+begin 
+case month
+when 'January'
+    then
+        DBMS_OUTPUT.PUT_LINE('January');
+WHEN 'February'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('February');  
+      WHEN 'march'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('March'); 
+WHEN 'April'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('April');
+      WHEN 'May'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('May');
+      WHEN 'June'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('June');
+      WHEN 'July'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('Julay'); 
+    WHEN 'August'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('August'); 
+      WHEN 'September'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('September'); 
+    WHEN 'October'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('October'); 
+WHEN 'november'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('November'); 
+WHEN 'December'
+    THEN
+      DBMS_OUTPUT.PUT_LINE('December'); 
+END CASE;
+END;
